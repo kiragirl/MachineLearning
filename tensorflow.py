@@ -15,3 +15,5 @@ model = Sequential([Dense(units=25, activation='sigmoid'),
 #model.compile(optimizer='sgd', loss='mean_squared_error')
 model.fit(x, y)
 print(model.predict([210.0]))
+
+git clone -c http.proxy="PROXY dalian-webproxy.openjawtech.com:3128" https://github.com/
