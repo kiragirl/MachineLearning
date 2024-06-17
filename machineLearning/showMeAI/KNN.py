@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler  # 用于对数据进行标准�
 from sklearn.neighbors import KNeighborsRegressor  # KNN算法
 from sklearn.metrics import mean_squared_error  # 用于计算均方根误差
 
-path = r'rent_price.csv'
+path = 'rent_price.csv'
 file = open(path, encoding='gb18030', errors='ignore')
 dc_listings = pd.read_csv(file)
 features = ['accommodates', 'bedrooms', 'bathrooms', 'beds', 'price', 'minimum_nights', 'maximum_nights',
