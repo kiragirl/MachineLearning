@@ -16,4 +16,4 @@ model = Sequential([Dense(units=25, activation='sigmoid'),
 model.fit(x, y)
 print(model.predict([210.0]))
 
-git clone -c http.proxy="PROXY dalian-webproxy.openjawtech.com:3128" https://github.com/
+#git clone -c https.proxy="PROXY dalian-webproxy.openjawtech.com:3128" https://github.com/kaieye/2022-Machine-Learning-Specialization.git
