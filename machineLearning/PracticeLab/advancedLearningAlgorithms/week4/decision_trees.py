@@ -224,3 +224,5 @@ def build_tree_recursive(X, y, node_indices, branch_name, max_depth, current_dep
     # continue splitting the left and the right child. Increment current depth
     build_tree_recursive(X, y, left_indices, "Left", max_depth, current_depth + 1)
     build_tree_recursive(X, y, right_indices, "Right", max_depth, current_depth + 1)
+
+
